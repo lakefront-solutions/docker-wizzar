@@ -11,7 +11,12 @@ This project contains scripts to automate the installation of Docker, pulling th
 ## Usage Instructions:
 1. SSH into your server instance.
 2. Create a directory for your server scripts (optional, but will help keep a good pattern)
-   etc/init/scripts
+   lakefront/scripts
+   ```bash
+   mkdir lakefront
+   cd lakefront
+   mkdir scripts
+   
 3. Navigate to the above folder
 4. Git clone the docker-wizzar repo
    git clone https://github.com/lakefront-solutions/docker-wizzar.git
@@ -28,7 +33,8 @@ This project contains scripts to automate the installation of Docker, pulling th
    chmod +x *.sh
 
 7. Run the main script:
+   Navigate to the 
    ```bash
-   bash docker_run_container.sh
+   ./docker_run_container.sh
 
 
