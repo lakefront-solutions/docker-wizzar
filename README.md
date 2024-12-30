@@ -16,9 +16,16 @@ This project contains scripts to automate the installation of Docker, pulling th
 4. Git clone the docker-wizzar repo
    git clone https://github.com/lakefront-solutions/docker-wizzar.git
 5. Navigate to the directory where the files are located.
-6. Make the files executable.
+6. Make the files executable one at the time of using a wild card.
    ```bash 
-   chmod +x docker_install.sh docker_pull_image.sh docker_run_container.sh docker_log_in.sh
+   chmod +x docker_install.sh
+   chmod +x docker_pull_image.sh
+   chmod +x docker_run_container.sh
+   chmod +x docker_log_in.sh
+
+   or
+
+   chmod +x *.sh
 
 7. Run the main script:
    ```bash
