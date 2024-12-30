@@ -1,7 +1,3 @@
-#### 2. `docker_install.sh`
-This script checks if Docker is installed and installs it if not.
-
-```bash
 #!/bin/bash
 
 # Check if Docker is installed
