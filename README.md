@@ -9,18 +9,19 @@ This project contains scripts to automate the installation of Docker, pulling th
 - `docker_build_n_run_container.sh`: Main script to install Docker, pull the latest image, and run the container.
 
 ## Usage Instructions:
-1. SSH into your Linode instance.
-2. Upload the entire folder containing these files to your Linode instance.
-   ```bash
-   scp -r /path/to/local/folder username@remote_host:/path/to/remote/directory
-
-3. Navigate to the directory where the files are located.
-4. Make the files executable.
+1. SSH into your server instance.
+2. Create a directory for your server scripts (optional, but will help keep a good pattern)
+   etc/init/scripts
+3. Navigate to the above folder
+4. Git clone the docker-wizzar repo
+   git clone https://github.com/lakefront-solutions/docker-wizzar.git
+5. Navigate to the directory where the files are located.
+6. Make the files executable.
    ```bash 
-   chmod +x docker_install.sh docker_pull_image.sh docker_build_n_run_container.sh
+   chmod +x docker_install.sh docker_pull_image.sh docker_run_container.sh docker_log_in.sh
 
-5. Run the main script:
+7. Run the main script:
    ```bash
-   bash docker_build_n_run_container.sh
+   bash docker_run_container.sh
 
 
