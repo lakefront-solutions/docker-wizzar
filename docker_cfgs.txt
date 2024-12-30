@@ -1,0 +1,2 @@
+# Provide the docker image full name and path here. e.g: taaphise/angular_app_v1_image
+image_name: lakefront/docker-image-mosaic-v1

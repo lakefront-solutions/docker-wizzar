@@ -1,0 +1,10 @@
+logs/
+*.log
+temps/
+env/
+env.bak/
+*/.env
+.env
+.env.bak/
+*.env
+.DS_Store
